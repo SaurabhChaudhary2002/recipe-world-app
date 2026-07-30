@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+**/.env
+.env.*
+**/.env.*
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Vite
+frontend/recipe-world-app/dist/
+
+# Backend uploads (optional)
+backend/public/images/
